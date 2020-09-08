@@ -1,0 +1,122 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background-color: white;
+    text-transform: capitalize;
+}
+
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+.bg-1{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+.navbar{
+    background-color: rgba(0, 0, 0,0);
+    position: fixed;
+}
+.banner{
+    background-image: linear-gradient(to right,rgba(171, 46, 255,0.7),rgba(255, 46, 245,0.4),rgba(0,0,0,0));
+    width: 100%;
+    height: 35em;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.wave{
+    position: absolute;
+    bottom: 3%;
+}
+.wave-2{
+    position: absolute;
+    bottom: 0;
+}
+.wave-3{
+    position: absolute;
+    bottom: -3%;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: white;
+    border-bottom: solid 1px white;
+}
+.title{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    transform: translateY(-50%);
+    z-index: 999;
+    color: white;
+    text-transform: capitalize;
+    text-shadow: black 2px 2px 5px;
+    line-height: 2.5em;
+}
+
+.site-footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+.reserve{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+    text-transform: capitalize;
+    background-image: linear-gradient(130 deg,red,rgb(223, 41, 110));
+}
+#modalReserve{
+    width: 70%;
+    height: 25em;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    text-transform: capitalize;
+}
+.modal-header{
+    background-color: pink;
+    color: white;
+}
+.row-content{
+    padding: 50px 0;
+}
+.bg-2{
+    background-color: grey;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bg-3{
+    background-color: pink;
+    padding: 50px 0;
+}
+.contact{
+    border: 2px solid white;
+    background-color: pink;
+    border-radius: 0;
+    width: 70%;
+    margin-bottom: 20px;
+    padding: 7px 20px;
+    color: rgba(255,255,255,0.5);
+}
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+    border-radius: 5px;
+    
+  }
+
+ 
+
+
+
+
